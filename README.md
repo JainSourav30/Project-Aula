@@ -7,4 +7,3 @@ Raghav : Write your full name "here" and submit a pull request
 
 Prateek : Write your full name "here" and submit a pull request
 
-Just to cause conflict with Raghav's pull request

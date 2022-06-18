@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
+import Button from './components/Button';
 import LoginForm from './components/LoginForm'
+import Signup_one from './components/Signup-one';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 const App = () => {
   
@@ -33,6 +36,7 @@ const App = () => {
   }
   
   return (
+    // <Router>
     <div className="App">
       {
         (user.email != "") ? (
@@ -41,10 +45,13 @@ const App = () => {
             <button onClick = {Logout}>Logout</button>
           </div>
         ) : (
+          <div>
           <LoginForm Login={Login} error={error}/>
+          </div>
         )
       }
     </div>
+    // </Router>
   );
 }
 

@@ -1,6 +1,4 @@
 # Project-Aula
 Customisable Organiser-Participant Interactive System
 
-Here we begin with our project officially...
-
-Hopefully this line appears
+Needs to be updated sooner or later...

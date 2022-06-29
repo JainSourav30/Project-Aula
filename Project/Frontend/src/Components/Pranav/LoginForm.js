@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
-import './login.css'
-import {BrowserRouter as Router, Link} from 'react-router-dom';
+import '../../Styles/Pranav/login.css'
+import "../Pranav/Button"
+import Button from '../Pranav/Button';
+
+//import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 function LoginForm({ Login, error }) {
 
@@ -31,7 +34,9 @@ function LoginForm({ Login, error }) {
                 <label htmlFor = "password">Password :</label>
                     <input type="password" name="password" id="password" onChange={e => setDetails({...details, password : e.target.value })} value = {details.password}/>
                 </div>
-                <input type="submit" value = "Log-In" />
+                <Button value={"Log-in"}/> 
+                <Button value={"Sign Up"}/> 
+                {/* <input type="submit" value = "Log-In" /> */}
                 {/* <Router>
             <Link to="./Signup-one.js">
               <button>HELLO</button>

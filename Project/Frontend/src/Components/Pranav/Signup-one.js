@@ -10,7 +10,7 @@ function Signup_one() {
                 <Button value="Sign-Up With Google"></Button>
                 <Button value="Sign-Up With Github"></Button>
                 <Button value="New Account"></Button>
-            </div>
+            </div> 
         </div>
     </div>
   )

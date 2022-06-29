@@ -1,10 +1,11 @@
 import React from 'react'
+import "../../Styles/Pranav/buttonstyle.css"
 
-function Button({value}) {
+const Button = ({value}) => {
   return (
-    <div>
+    <span>
         <button className="btn">{value}</button>
-    </div>
+    </span>
   )
 }
 
